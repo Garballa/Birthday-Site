@@ -1,0 +1,138 @@
+body {
+  text-align: center;
+  font-family: VLad;
+  background: linear-gradient(
+    #0b090a,
+    #161a1d,
+    #660708,
+    #a4161a,
+    #ba181b,
+    #e5383b,
+    #b1a7a6,
+    #d3d3d3,
+    #f5f3f4,
+    #ffffff
+  );
+  color: #f5f3f4;
+}
+@font-face {
+  font-family: Vlad;
+  src: url("VampireRaves-KpwW.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+  letter-spacing: 0.2rem;
+}
+#cheers-h2 {
+  color: #e5383b;
+}
+
+#vlad-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #a4161a;
+  margin-bottom: 10px;
+}
+
+#bday-age {
+  background: #e5383b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#bday-date {
+  margin: 0;
+  background: #b1a7a6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+/* #gift-img-cheers {
+  height: 200px;
+} */
+
+.gift-img1 {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/Gift1.png");
+  background-size: cover;
+}
+.gift-img2 {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/Gift2.png");
+  background-size: cover;
+}
+.gift-img3 {
+  margin: 20px auto;
+  max-width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("images/Gift3.png");
+  background-size: cover;
+}
+
+#gift-img-happy:hover {
+  background-image: url("https://media.giphy.com/media/EHKRUd3NpbHFe/giphy.gif");
+}
+
+#gift-img-hot:hover {
+  background-image: url("https://media.giphy.com/media/hBfvyF6k9RMIM/giphy.gif");
+  background-position: center;
+}
+
+#gift-img-genius:hover {
+  background-image: url("https://media.giphy.com/media/xT4ApeueHHHo2CqWhG/giphy.gif");
+  background-position: center;
+}
+
+#gift-img-badass:hover {
+  background-image: url("https://media.giphy.com/media/gNzDiRiZS3SXS/giphy.gif");
+  background-position: center;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("https://media.giphy.com/media/BcHXwYJF9I9CgtYHch/giphy.gif");
+  background-position: center;
+}
+
+#footer {
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
+}
